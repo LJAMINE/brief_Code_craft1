@@ -9,12 +9,46 @@ html,
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  background-image: linear-gradient(to right, #FFEFD5 , #306096e3);
+
+
    
   
 }
+.coveer{
+  width: 900px;
+  height: 400px;
+  /* background: #000; */
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+.box{
+  margin: 10px;
+  width: 800px;
+  height: 450px;
+  box-shadow: -1px 0 10px #000000;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}  
+img{
+  width: 500px;
+  height: 200px;
+  display: flex;
+  margin: auto;
+  
+}
+#contact{
+  width: 100%;
+  height: 43rem
+  ;
+
+}
 
 img{
-  width: 600px;
+  /* width: 600px; */
   background-image: url("images/codecraft_Banner_1.webp");
 }
 
@@ -33,9 +67,10 @@ p.intro-des {
   font-size: 20px;
   line-height: 35px;
   margin-top: 50px;
+  color: #000000;
 }
 p.intro-des a {
-  color: #3c3c3c;
+  color: #3E0606;
 }
 p.intro-des span {
   font-size: 15px;
@@ -72,7 +107,8 @@ p.intro-des span {
   margin-top: 20px;
   font-family: "Lato", sans-serif;
   font-size: 13px;
-  font-weight: 400;
+  background: #adb0b5;
+  font-weight: 600;
   letter-spacing: 2px;
   list-style: none;
   display: -webkit-flex;
@@ -83,7 +119,7 @@ p.intro-des span {
 }
 .nav a,
 .navbar a {
-  color: #3c3c3c;
+  color: #000000;
   text-decoration: none;
 }
 .nav .nav-item,
@@ -115,7 +151,7 @@ p.intro-des span {
 
 section.page-container {
   margin: auto;
-  width: 90%;
+  width: 100%;
   max-width: 800px;
   height: 100vh;
   position: relative;
@@ -123,10 +159,10 @@ section.page-container {
   
 }
 .aminefonts{
-  color: green;
+  color: black;
 }
 p{
-  color: grey;
+  color: black;
 }
 
 #intro {
@@ -135,11 +171,16 @@ p{
 #intro .section-container {
   margin-top: 70px;
 }
+#rules{
+  right: 7%;
+}
 
 .section-container {
   position: absolute;
-  top: 45%;
+  top: 48%;
   left: 50%;
+  /* left: 50%;
+  right: 50%; */
   width: 90%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -147,8 +188,8 @@ p{
 .section-container h4 {
   font-size: 50px;
   font-weight: 300;
-  color: #3c3c3c;
-  margin-bottom: 30px;
+  color: #451212;
+  margin-bottom: 1px;
 }
 
 /*** General Button Styles ***/
