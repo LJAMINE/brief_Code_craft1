@@ -46,7 +46,7 @@ img{
 }
 #contact{
   width: 100%;
-  height: 43rem
+  height: 58rem
   ;
 
 }
@@ -69,8 +69,10 @@ h2 {
 p.intro-des {
   position: relative;
   font-size: 20px;
-  line-height: 35px;
-  margin-top: 50px;
+  /* line-height: 35px; */
+  /* /* margin-top: 10px; */
+  margin-bottom: 10px; 
+  /* margin: 0; */
   color: #000000;
 }
 p.intro-des a {
@@ -264,6 +266,15 @@ p{
   color: black;
   background-image: url("https://s32.postimg.org/g5kiaqxit/wave_black.png");
 }
+:root{
+  --main-color:purple;
+  --box-shadow:0px 3px 5px 0px rgba(0,0,0,0.34);
+  --hover-shadow:0px 4px 4px 0px rgba(3,3,3 ,0.561);
+  --nav-shadow:0px 0px 10px 0px rgba(0,0,0 ,0.100);
+  --light-black:#141c3a;
+
+
+}
 
 .footer .images{
   display: flex;
@@ -274,18 +285,21 @@ p{
 }
 .footer .images img{
   width: 15%;
+  height: 20vh;
   border: 1px solid white;
-  padding: 15px;
-  border-radius: 3px;
+  padding: 5px;
+  border-radius: 100%;
   transition: 0.3s ease;
+  background: transparent;
+
 }
-.footer .images img:hover{
+.footer .images  :hover{
   box-shadow: var(--hover-shadow);
   cursor: pointer;
 }
-footer a{
-  float: right;
+/* footer h4{
+  float:  inline-end;
   color: var(--main-color);
   margin: 10px 0;
 
-}
+} */
